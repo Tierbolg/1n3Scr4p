@@ -24,7 +24,7 @@ from urllib.error import HTTPError
 
 def buscarcodigos():
     codigosUrl=[]
-    with open(PROPERTIES.excelEntrada, newline='') as f:
+    with open(PROPERTIES.INPUTFILE, newline='') as f:
         reader = csv.DictReader(f, delimiter=',', quoting=csv.QUOTE_NONE)
         for row in reader:            
             #print(row['LINK'])

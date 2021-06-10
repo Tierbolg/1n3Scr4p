@@ -1,5 +1,12 @@
-url="https://capacitacionvirtualine.brightspace.com/d2l/home"
-excelEntrada="/home/gil/Documentos/Proyectos/freelancer/INEScrapping/1n3Scr4p/data/Listado_de_encuestas_FMDC_responsable_nuevolink.csv"
+URL="https://capacitacionvirtualine.brightspace.com/d2l/home"
+INPUTFILE="C:\\Users\\gilberto.velazquez\\Documents\\work\\pythonGil\\ine\\1n3Scr4p\\data\\Listado_de_encuestas_FMDC_responsable_nuevolink.csv"
+#excelEntrada="/home/gil/Documentos/Proyectos/freelancer/INEScrapping/1n3Scr4p/data/Listado_de_encuestas_FMDC_responsable_nuevolink.csv"
+#For Linux is geckodriver, for Windows is the selenium.exe
+PATH_DRIVER_CHROME="C:/Users/gilberto.velazquez/Documents/tools/selenium_91/chromedriver.exe"
+MAIN_USER="mario.balam"
+MAIN_PASS="Balam.2021"
+
+
 fileTemp="collectionFile.csv"
 fileAdded="newProducts.csv"
 collectionToParse="hoodies,sneakers,pants"
